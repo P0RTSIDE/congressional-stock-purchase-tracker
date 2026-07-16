@@ -1,0 +1,28 @@
+{
+  "framing": "Temporal associations between PTR trades and legislative votes. Not evidence of insider trading, influence, or wrongdoing.",
+  "summary": {
+    "total_signals": 1461,
+    "unique_members": 27,
+    "unique_bills": 5,
+    "by_signal_type": {
+      "large_purchase": 153,
+      "large_sale": 39,
+      "purchase_before_vote": 805,
+      "sale_before_vote": 464
+    },
+    "cross_party": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "non_cross_party": {
+      "count": 1461,
+      "pct": 100.0
+    },
+    "by_party": {
+      "D": 822,
+      "R": 639
+    },
+    "large_trades": 384
+  },
+  "signal_count": 1461
+}

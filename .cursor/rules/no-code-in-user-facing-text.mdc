@@ -1,0 +1,23 @@
+---
+description: Plain user-facing copy: no code commands, no em/en dashes
+alwaysApply: true
+---
+
+# Plain language for user-facing text
+
+When writing text shown to end users (UI labels, errors, footers, tooltips, methodology pages, help copy, empty states, marketing copy, exported JSON messages):
+
+## No code or terminal instructions
+
+- Do not include shell commands, Python/terminal snippets, file paths, package names, or `<code>` / backtick formatting for technical instructions.
+- Do not tell users to run scripts, npm commands, or edit config files in the product UI.
+- Use plain language instead (e.g. "Please refresh the page" instead of "run python -m ...").
+- Developer/setup instructions belong only in README or internal docs, not in dashboard or app surfaces.
+
+## No em dashes or en dashes
+
+- Do not use em dashes (—) or en dashes (–) in any user-facing text.
+- Use commas, periods, colons, or the word "to" for ranges instead (e.g. "$15,001 to $50,000", not "$15,001–$50,000").
+- Apply the same rule to assistant responses, commit messages, and PR descriptions when writing for humans.
+
+Applies to React components, Python export strings shown in the UI, and any copy a non-technical reader would see.

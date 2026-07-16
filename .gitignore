@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment & secrets
+.env
+
+# Data (large / licensed)
+data/raw/
+data/processed/*.db
+data/processed/*.parquet
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Node
+web/node_modules/
+web/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports build artifacts
+reports/figures/*.png
+reports/figures/*.svg

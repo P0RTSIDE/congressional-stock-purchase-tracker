@@ -1,0 +1,59 @@
+{
+  "total_member_votes_analyzed": 1524,
+  "cross_party_votes": 348,
+  "votes_with_any_overlap": 0,
+  "cross_party_with_overlap": 0,
+  "political_org_overlap_count": 0,
+  "party_summary": [
+    {
+      "is_cross_party": false,
+      "party_at_vote": "D",
+      "n": 647,
+      "mean_overlap_score": 0.0,
+      "median_overlap_score": 0.0,
+      "std_overlap_score": 0.0
+    },
+    {
+      "is_cross_party": false,
+      "party_at_vote": "I",
+      "n": 8,
+      "mean_overlap_score": 0.0,
+      "median_overlap_score": 0.0,
+      "std_overlap_score": 0.0
+    },
+    {
+      "is_cross_party": false,
+      "party_at_vote": "R",
+      "n": 521,
+      "mean_overlap_score": 0.0,
+      "median_overlap_score": 0.0,
+      "std_overlap_score": 0.0
+    },
+    {
+      "is_cross_party": true,
+      "party_at_vote": "D",
+      "n": 101,
+      "mean_overlap_score": 0.0,
+      "median_overlap_score": 0.0,
+      "std_overlap_score": 0.0
+    },
+    {
+      "is_cross_party": true,
+      "party_at_vote": "I",
+      "n": 1,
+      "mean_overlap_score": 0.0,
+      "median_overlap_score": 0.0,
+      "std_overlap_score": 0.0
+    },
+    {
+      "is_cross_party": true,
+      "party_at_vote": "R",
+      "n": 246,
+      "mean_overlap_score": 0.0,
+      "median_overlap_score": 0.0,
+      "std_overlap_score": 0.0
+    }
+  ],
+  "top_cross_party_overlaps": [],
+  "political_org_overlaps": []
+}
