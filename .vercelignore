@@ -1,0 +1,11 @@
+src/
+db/
+tests/
+notebooks/
+data/raw/
+data/processed/
+requirements.txt
+.env
+.env.example
+reports/
+scripts/
