@@ -1,17 +1,27 @@
 # Load scripts
 
+Votes:
+
 ```bash
-# Votes
 python -m src.load_votes --congress 118 --chamber both --limit 3
+```
 
-# Donor profiles (OpenFEC API — organizational contributions per member)
+Donor profiles from the OpenFEC API (organizational contributions per member):
+
+```bash
 python -m src.load_donors --cycle 2024 --limit 5
+```
 
-# Lobbying (LDA API — defaults to bills that have roll-call votes in DB)
+Lobbying disclosures from the LDA API. The default set is bills that already have roll-call votes in the database:
+
+```bash
 python -m src.load_lobbying --year 2024 --limit-pages 50
+```
 
-# Overlap analysis (associational — not causal)
+Overlap scores. The score is an association, not a causal estimate:
+
+```bash
 python -m src.run_overlap_analysis
 ```
 
-See `data/DATA_NOTES.md` for source access details.
+Source access, rate limits, and name matching: `data/DATA_NOTES.md`.
